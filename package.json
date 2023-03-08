@@ -1,0 +1,30 @@
+{
+  "name": "guitar-groove",
+  "version": "1.0.0",
+  "description": "A guitar application meant to help get you into your guitar groove.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development",
+    "test": "test"
+  },
+  "author": "Robbie Woolf",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "chokidar": "^3.5.3",
+    "css-loader": "^6.7.3",
+    "glob-parent": "^5.1.2",
+    "node-forge": "^1.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
