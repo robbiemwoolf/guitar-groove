@@ -1,0 +1,24 @@
+.container {
+    display: block;
+    text-align: center;
+}
+
+.tempo {
+    color: green;
+    font-family: "digital";
+    font-size: 12vh;
+    margin-bottom: 0%;
+
+}
+
+.text {
+    color: green;
+    font-family: "digital";
+}
+
+@font-face {
+    font-family: "digital";
+    font-weight: 500;
+    src: local("Orbitron"),
+        url("../fonts/Orbitron.ttf") format("truetype");
+}
