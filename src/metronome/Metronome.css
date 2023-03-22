@@ -1,6 +1,43 @@
+.adjust-tempo {
+    display: inline-block;
+    margin: 30px;
+    color: whitesmoke;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(58, 99, 58);
+}
+
 .container {
     display: block;
     text-align: center;
+    position: relative;
+}
+
+.dec-tempo {
+    line-height: 25px;
+}
+
+.inc-tempo {
+    line-height: 28px;
+}
+
+.slider {
+    accent-color: orange;
+}
+
+.start-stop {
+    font-family: monospace;
+    color: whitesmoke;
+    background-color: green;
+    width: 50px;
+    height: 25px;
+    border-radius: 45%;
+    left: 50%;
+    margin-top: 15px;
+    padding-top: 8px;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .tempo {
@@ -8,17 +45,11 @@
     font-family: "digital";
     font-size: 12vh;
     margin-bottom: 0%;
-
+    display: inline-block;
 }
 
-.text {
+.bpm {
     color: green;
     font-family: "digital";
-}
-
-@font-face {
-    font-family: "digital";
-    font-weight: 500;
-    src: local("Orbitron"),
-        url("../fonts/Orbitron.ttf") format("truetype");
+    display: inline-block;
 }
