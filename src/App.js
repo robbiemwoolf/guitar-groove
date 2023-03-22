@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import Header from "./header/Header";
 import './App.css';
+import Header from "./header/Header";
+import AnalyzerBPM from "./AnalyzerBPM/AnalyzerBPM";
 
 class App extends Component{
   render(){
     return(
-        <Header />
+        <>
+            <Header />
+            <AnalyzerBPM />
+        </>
     );
   }
 }
